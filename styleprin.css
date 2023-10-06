@@ -1,0 +1,59 @@
+body{
+   margin: 0;
+    
+}
+
+@font-face {
+    font-family: lighter;
+    src: url(Lobster-Regular.ttf);
+}
+
+#teste{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.navbar-brand{
+    position: fixed;
+    font-family: lighter;
+    
+}
+
+.centralizarTable{
+    margin: auto;
+    padding-top: 50px;
+   
+}
+
+#tabela thead th:nth-child(1){
+    width:100px;
+}
+
+.stylebutton{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background: gray;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+  
+}
+
+.stylebutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(47, 64, 72, 0.24), 0 17px 50px 0 rgba(231, 231, 231, 0.19);
+   
+}
+
+.frase{
+    position: relative;
+    top: 25px;
+    padding-top: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
